@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+    <title>Test</title>
+
+</head>
+<script src="test.js"></script>
+
+<body>
+    <center>
+        <h2>My simple calculator</h2>
+    </center>
+
+    <label>First number</label>
+    <input type="text" class="first" />
+    <br>
+    <br>
+    <label>Second number</label>
+    <input type="text" class="second">
+    <br>
+    <br>
+    <input type="button" onclick="calc()" value="Calculate" />
+    <br>
+    <br> Result =
+    <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary"> 
+        <input type="checkbox" name="" class="disable" autocomplete="off">Disable
+    </label>
+        <label class="btn btn-primary">
+        <input type="checkbox" name="" class="enable" autocomplete="off">Enable
+    </label>
+
+    </div>
+
+    <div class="result"></div>
+
+</body>
+
+</html>
